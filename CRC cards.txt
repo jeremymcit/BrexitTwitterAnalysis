@@ -1,0 +1,22 @@
+Class Name: FXRate
+Responsibilities: format for a single FX rate data point at a single point in time including time and date, rate, currency pair
+Includes getters and setters
+Collaborators:
+
+Class Name:FXRateReader
+Responsibilities: read in FX rate data from CSV file and stores it in a HashMap
+Includes a getter
+Collaborators: FXRate
+
+Class Name: Statistical Analysis
+Responsibilities: for Tweets that are a certain number of minutes before a certain percentage change in the fx rate, stores in a hashmap the number of times each word comes up
+Collaborators: FXrateReader, TwitterDataReader
+
+Class Name: TwitterDataReader
+Responsibilities: Reads in and stores twitter data
+Collaborators: 
+
+Class Name: GUI
+Responsibilities: TBD
+Collaborators: TBD
+
