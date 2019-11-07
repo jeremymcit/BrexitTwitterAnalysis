@@ -1,0 +1,7 @@
+Members: Jeremy Woo, Lina Zhu
+
+Project Idea: We plan to build a model that shows correlations between the tweets of major political figures and the exchange rate of GBP/USD during the 2016-2017 inception of Brexit. We hypothesize that the remarks made by British and other worldly political figures via Twitter may contain keywords or phrases, which significantly impacts the foreign exchange rate of GBP to USD. We will primarily focus on finding patterns among these tweets which are highly correlated with large variances in the exchange rate. To accomplish this, we plan to utilize Twitter posts of prominent key individuals and publicly available data for the historical foreign exchange rate of GBP/USD.
+
+Specifications(*may be revised*): We will set the threshold to “if there is more than a 0.5% variance in the exchange rate from the previous hour, analyze the tweets from key figures during that hour”. Expected words such as “the, a, Brexit” will be ignored. Words are considered keywords or phrases if they appear more than 10 times across analyzed Twitter accounts. 
+
+Work Breakdown: Jeremy will work on getting and importing GDP/USD data while Lina will utilize the Twitter API to convert tweets into readable data. Jeremy and Lina will collaborate to write the program to assess patterns (frequencies of keywords or phrases) in the data and work on designing a graphical user interface (GUI) to display the results.
